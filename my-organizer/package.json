@@ -13,6 +13,7 @@
     "@heroicons/react": "^2.2.0",
     "canvas-confetti": "^1.9.3",
     "clsx": "^2.1.1",
+    "jungle-gem-organizer": "file:..",
     "lucide-react": "^0.544.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",

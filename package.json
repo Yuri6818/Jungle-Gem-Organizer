@@ -1,6 +1,9 @@
 {
   "name": "jungle-gem-organizer",
   "private": true,
+  "engines": {
+    "node": "18.x"
+  },
   "workspaces": [
     "my-organizer",
     "server"
