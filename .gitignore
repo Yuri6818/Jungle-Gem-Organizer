@@ -1,0 +1,73 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+out/
+.vite/
+coverage/
+coverage-final.json
+
+# Vite / temp
+/.vite/
+/.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Misc
+*.tgz
+.pnp/
+.pnp.js
+
+# Server-specific
+server/node_modules/
+server/dist/
+server/build/
+
+# Subproject: my-organizer
+my-organizer/node_modules/
+my-organizer/dist/
+my-organizer/.vite/
+
+# Coverage and test result folders
+.nyc_output/
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Lockfiles for other package managers (optional)
+# pnpm-lock.yaml
+
+# Ignore local IDE run config
+.vscode/*
+!.vscode/extensions.json
