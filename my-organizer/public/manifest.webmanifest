@@ -1,0 +1,12 @@
+{
+  "name": "Jungle Gem Organizer",
+  "short_name": "GemOrg",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b5d1e",
+  "theme_color": "#10b981",
+  "icons": [
+    { "src": "/vite.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
+

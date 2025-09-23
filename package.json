@@ -1,0 +1,18 @@
+{
+  "name": "jungle-gem-organizer",
+  "private": true,
+  "workspaces": [
+    "my-organizer",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm:dev:client\" \"npm:dev:server\"",
+    "dev:client": "npm --prefix my-organizer run dev",
+    "dev:server": "npm --prefix server run dev",
+    "build": "npm --prefix my-organizer run build && npm --prefix server run build",
+    "start": "npm --prefix server run start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

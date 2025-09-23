@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* Jungle & Gemstone theme tokens */
+@theme {
+  --color-jungle: #0b5d1e; /* deep jungle green */
+  --color-emerald: #10b981; /* emerald */
+  --color-amethyst: #9966cc; /* amethyst */
+  --color-sapphire: #0f4c81; /* sapphire */
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+/* Subtle shimmer animation for active gem tab */
+@keyframes shimmer {
+  0% { opacity: 0.4; filter: brightness(1); }
+  50% { opacity: 1; filter: brightness(1.25); }
+  100% { opacity: 0.4; filter: brightness(1); }
+}
+
+.shimmer {
+  animation: shimmer 2.2s ease-in-out infinite;
+}
