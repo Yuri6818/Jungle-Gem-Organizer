@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "engines": {
+    "node": "18.x"
+  },
+  "builds": [
+    {
+      "src": "my-organizer/package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "dist" }
+    },
+    {
+      "src": "server/src/index.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/server/src/index.ts" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

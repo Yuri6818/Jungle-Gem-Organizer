@@ -108,7 +108,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-[url('/jungle.jpg')] bg-cover bg-fixed bg-center text-white">
+    <div className="min-h-screen bg-[url('/jungle.webp')] bg-cover bg-fixed bg-center text-white">
       <Toaster richColors position="top-right" />
       <div className="min-h-screen backdrop-blur-[1px] bg-gradient-to-b from-black/40 via-black/30 to-black/60">
         <header className="px-4 sm:px-6 pt-8 pb-4">
