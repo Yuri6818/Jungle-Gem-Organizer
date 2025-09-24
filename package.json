@@ -2,7 +2,7 @@
   "name": "jungle-gem-organizer",
   "private": true,
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   },
   "workspaces": [
     "my-organizer",
